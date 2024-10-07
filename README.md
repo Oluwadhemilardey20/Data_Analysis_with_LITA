@@ -1,6 +1,20 @@
 # Data_Analysis_with_LITA
 ## Project: Basic Analysis
 
+[Project Overview](#project-overview)
+
+[Data sources](#data-sources)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning and Preparations](#data-cleaning-and-preparations)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+
 ### Project Overview
 ---
 This project was aimed towards empowering ladies with tech skills of which i was privileged to be one of the participant. It aimed to cover a wide range of tools and functions for efficient and accurate analysis, visualization and reporting. 
@@ -59,4 +73,12 @@ order by 2 desc
 
 ### Data Visualization
 
+![IMG_20241004_115428](https://github.com/user-attachments/assets/0f321d10-bae4-460d-9022-b30d8c68bfa5)
+
+
+![IMG_20240928_232651](https://github.com/user-attachments/assets/5332577a-69d9-4b6e-a5b6-c11fa2665232)
+
+|Heading 1|Heading 2|Heading 3| 
+|---------|---------|---------|
+|Table 1|Table 2|Table 3|
 
