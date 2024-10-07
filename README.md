@@ -1,5 +1,5 @@
 # Data_Analysis_with_LITA
-## Project: Basic Analysis
+## Project: Analysis and Visualization
 
 [Project Overview](#project-overview)
 
