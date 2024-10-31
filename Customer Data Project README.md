@@ -35,12 +35,12 @@ The dataset includes the following key columns:
 2. Remove Duplicates: Ensuring no redundant data records are present.
 
  ### Data Analysis: 
-- The data was converted into a table. Two new column (Subscription Duration and Cancellation Status) were created to aid a more precise and clear analyis, and average subscription duration was calculated using formular to allow for an auto update if there is any changes or additon to the dataset.
+- The data was converted into a table. Two new column (Subscription Duration and Subscription Status) were created to aid a more precise and clear analyis, and average subscription duration was calculated using formular to allow for an auto update if there is any changes or additon to the dataset.
 
  **Formular Used**
 
   ```
- Cancellation Status =IF(G2=FALSE,"Active","Canceled")
+ Subscription Status =IF(G2=FALSE,"Active","Canceled")
   ```
 
   ```
@@ -50,7 +50,7 @@ The dataset includes the following key columns:
   ```
  Average Subscription Duration =AVERAGE(Subscription Duration)
   ```
-- Pivot table was then used to summarize the data for easier interpretation;
+- Pivot table was then used to summarize the data for easy interpretation;
 1. **Total Subscription by Type**:
 - *key insight*: Basic tier with 16,921 subscriptions holds the majority of subscriptions, accounting for a significantly larger share than both the Premium and Standard tiers combined.
 This suggests that the Basic subscription is likely the most accessible or appealing to a broader audience, potentially due to a lower price or essential features that meet the needs of many users.
@@ -69,13 +69,114 @@ This suggests that the Basic subscription is likely the most accessible or appea
 
   Track how many Basic users upgrade to higher tiers over time, and refine marketing and feature offerings accordingly.
 
-## Key Findings
-- Subscription **Type A** contributed the highest revenue but also had a high cancellation rate.
-- Regional differences show that **Region X** has the most engaged customers.
+2. **Total subscription by Region**:
+- *Key Insight*: The subscription counts are very close across all regions, with East slightly leading at 8,488 and West just slightly lower at 8,420. This relatively balanced distribution suggests that the subscription service appeals broadly across different regions without any particular region standing out significantly.
+
+- *Potential Strategic Action*: Since no region overwhelmingly dominates, there might be an opportunity to explore specific needs or preferences within each region to better tailor marketing or features that could further boost subscriptions.
+
+3. **Region by Subscription Type**:
+- *Key Insight*: East and North both have a preference for the Basic subscription, suggesting that users in these areas may prioritize affordability or only require essential features.
+
+   The South preference for the Premium subscription indicates that customers here may value advanced features and be willing to pay more for additional benefits.
+
+   While the West Standard subscription preference suggests that customers in this region seek a balance between affordability and extra features.
+
+- *Potential Strategic actions*: For the East and North, focus on campaigns encouraging Basic users to explore Standard or Premium options. Highlight the added value and features of these tiers, perhaps through limited-time upgrade discounts or feature previews.
+
+   In the South, emphasize the Premium plan benefits in this region and consider introducing exclusive features to reinforce the Premium plan’s value.
+
+   While in the West, promote add-on services that complement the Standard plan, as users in this region may be interested in mid-tier enhancements.
+
+4. **Revenue by Subsccription Type**:
+- *Key Insights*: Basic Subscription with a total revenue of 33,776,735, generates the highest revenue among all subscription types. This indicates that, despite its lower price point (presumably), the high volume of subscriptions drives substantial revenue.This implies that the Basic plan is widely popular, possibly due to its affordability and essential features. It might be the entry point for most customers.
+
+   The Premium subscription generates 16,899,064 in revenue. This is slightly higher than the Standard plan but significantly lower than the Basic plan, suggesting that fewer customers are choosing Premium despite its higher price point. This implies that Premium subscribers may represent a smaller but more lucrative segment that values additional features and services.
+
+   The Standard subscription contributes 16,864,376 to total revenue, very close to the revenue from the Premium subscription. This suggests that there is a balanced interest in mid-tier and top-tier options, but neither captures as large a market share as the Basic plan. This implies that the Standard plan may attract users looking for a balance between price and features, but it does not dominate the revenue like the Basic plan.
+
+5. **Revenue by Year**:
+- *Key Insights*: The period between 2022 and 2023 with a total revenue of 40,538,438, 2023 was a high-revenue year, potentially indicating strong sales performance, effective marketing, or favorable market conditions.
+
+   While the revenue for 2023 and 2024 so far stands at 27,001,737, showing a decrease compared to the full-year revenue at the end of 2023. This could indicate a decline in sales, changes in market dynamics, or other influencing factors.
+
+- *Potential strategic Actions*: Analyze market trends, competitor strategies, and internal changes (e.g., pricing, product offerings) to understand why 2024 revenue has declined compared to 2023. Check for any significant changes in customer behavior, such as a higher churn rate or reduced new subscriptions.
+
+   Implement loyalty programs, renewal discounts, or exclusive content to encourage existing customers to maintain or upgrade their subscriptions.
+Address customer feedback promptly to improve satisfaction and reduce churn.
+
+   Assess the current pricing strategy and make adjustments if needed to stay competitive without eroding profit margins.
+Introduce flexible payment plans or incentives for long-term commitments to improve cash flow and revenue stability.
+
+6. **Total Subscription Status**:
+- *Key insights*: There are 18,612 active subscriptions, indicating a solid base of ongoing customers who are currently engaged with the service. This suggests that the service continues to provide value that retains a substantial portion of its users.
+
+   15,175 subscriptions have been canceled, which is a significant number, almost approaching the number of active subscriptions. This suggests there may be challenges with customer retention, satisfaction, or competition.
+  
+- *Potential Strategic Actions*: Implement surveys for canceled customers to understand why they are leaving. Gathering data on cancellation reasons can provide actionable insights to address common issues. Also consider offering more flexible plans (e.g., pay-as-you-go or customizable packages) to reduce cancellations among customers who may feel constrained by existing options.
+
+   Offer proactive customer support that assists users before they reach a point of cancellation. This can include automated check-ins, FAQs, or live chat support for troubleshooting common issues. Ensure new customers receive effective onboarding to make the most of their subscriptions. 
+
+   Analyze how active customers use the service and identify behaviors that indicate a risk of cancellation. This allows for targeted interventions, such as personalized email campaigns or outreach calls. Evaluate customer feedback to prioritize improvements that align with user needs and expectations. Addressing common requests can make customers feel heard and increase satisfaction.
+
+7. **Subscription Type by Subscription Status**: 
+- *Key Insights*:
+
+   Basic Subscription: 11,854 customers are currently active under the Basic plan, the highest number among all types. 5,067 customers have canceled, indicating that while the Basic plan is popular, it has a significant number of cancellations.
+Implication: The Basic plan attracts the most users but also faces retention challenges, likely due to limited features or competition.
+
+   Premium Subscription: Only 3,382 customers remain active. 5,064 customers have canceled, nearly matching the number of canceled customers for the Basic plan.
+Implication: The Premium plan has a high churn rate, suggesting that customers may not find the additional features worth the cost or that the plan may not meet expectations.
+
+   Standard Subscription: 3,376 customers are active, which is the lowest number of active customers among all plans and similar to the number for Premium. 5,044 customers have canceled, indicating high churn similar to the Premium plan.
+Implication: Like the Premium plan, the Standard plan shows significant cancellations. This could point to a middle-ground offering that may not differentiate itself enough to retain users.
+
+- *Potential Strategic Action*: Review the features and benefits provided by the Premium and Standard subscriptions. Consider adding unique features or services that clearly differentiate them from the Basic plan and justify their higher prices.
+
+   Gather feedback specifically from customers who canceled their Premium and Standard subscriptions to identify common pain points or unmet expectations.
+Use this feedback to make necessary improvements to retain current customers and attract new ones.
+
+   Implement targeted retention initiatives for Premium and Standard subscribers, such as personalized support, loyalty bonuses, or discounted renewal rates to reduce the churn rate.
+Educational Content:
+
+   Provide educational content, such as tutorials or webinars, to help customers fully utilize Premium and Standard plan features. This can enhance user experience and increase perceived value.
+
+   Introduce customizable plans or additional add-ons for the Basic subscription to encourage users to upgrade incrementally rather than cancel when their needs grow.
+
+- ## SQL Analysis
+ ### Data Cleaning:
+ 1. Correct Data Types: Ensuring data types are appropriate for analysis (e.g., dates, integers, floats).
+ 2. Remove Duplicates: Ensuring no redundant data records are present.
+
+```
+Query: select * from [dbo].[LITA Capstone Dataset 2]
+       select distinct * into #temp_table from [dbo].[LITA Capstone Dataset 2]
+       truncate table [dbo].[LITA Capstone Dataset 2]
+       insert into [dbo].[LITA Capstone Dataset 2] select * from #temp_table
+       drop table #temp_table
+```
+
+ ### Data Analysis: 
+ Queries were written to extract:  
+ - **Total number of customers from each region**: refer to insight given in excel analysis
+ - **Most popular subscripion type by the number of customers**: refer to insight given in excel analysis
+ - **Customer who canceled within six(6) months**: there is no record of cancellation within six month
+ - **Customers with subscription longer than twelve(12) months**: there is no subscription with a duration longer than twelve months
+ - **Total Revenue by subscription type**: refer to insight given in excel analysis
+ - **Total number of active and canceled subscription**:  refer to insight given in excel analysis
+ - **Top three(3) region by subscription cancelation**: refer to insight given in excel analysis
+ 
+ - ## PowerBI Dashboard
+ ### Data cleaning
+ 1. Correct Data Types: Ensuring data types are appropriate for analysis (e.g., dates, whole numbers, texts, etc.).
+ 2. Remove Duplicates: Ensuring no redundant data records are present.
+ 3. Handle Missing Values: Identifying and addressing any gaps in data.
+ ### Data Visalization 
+A dashboard that visualizes the insights found in Excel and SQL was created. The dashboard includes key customer segments, cancellations, and subscription trends.
 
 ## Visual Highlights
 ### Excel Analysis
-![Excel Summary Chart](./visuals/excel_summary_chart.png)
+![Excel Summary Chart](./visuals/excel_summary_chart.png)[Uploading Sales Data Project.sql.sql…]()
+
 
 ### SQL Analysis
 Queries to extract subscription trends can be found [here](./scripts/SQL_Analysis/).
@@ -85,3 +186,9 @@ Queries to extract subscription trends can be found [here](./scripts/SQL_Analysi
 
 ## Conclusion
 With the significant difference between Basic and other tiers, there may be an opportunity to convert Basic users to Standard or Premium with targeted offers or additional incentives.
+
+The significant revenue from 2023 indicates that strong performance is achievable. The focus should now be on understanding the reasons behind the decrease in 2024 and implementing targeted strategies to recover and potentially exceed past performance.
+
+While the number of active subscribers shows a positive customer base, the significant number of canceled subscriptions suggests potential challenges with retention. Implementing targeted retention strategies can help reduce churn and foster long-term customer loyalty.
+
+The Basic plan has a large base but moderate churn, while the Premium and Standard plans show higher churn rates despite having fewer active customers. Focusing on enhancing the value of Premium and Standard plans, implementing retention strategies, and gathering feedback for improvements can help improve overall customer retention and satisfaction.
