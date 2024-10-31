@@ -28,11 +28,11 @@ The dataset includes the following key columns:
 
 ## Exploratory Data analysis, insight uncovered and Recommendations 
 - ## Excel Analysis
- ### Data Cleaning:
+ ### Data Cleaning
 1. Handle Missing Values: Identifying and addressing any gaps in data.
 2. Remove Duplicates: Ensuring no redundant data records are present.
 
- ### Data Analysis:
+ ### Data Analysis
 - The data was converted into a table and revenue, average sales per product and total revenue per region was calculated using formular to allow for an auto update
   if there is any changes or additon to the dataset.
 
@@ -113,7 +113,7 @@ indicating that these categories are major revenue drivers.
    The relatively strong sales in July and June provide an opportunity to create mid-year campaigns that further capitalize on these natural sales peaks.
 
 - ## SQL Analysis
- ### Data Cleaning:
+ ### Data Cleaning
 1. Correct Data Types: Ensuring data types are appropriate for analysis (e.g., dates, integers, floats).
 2. Remove Duplicates: Ensuring no redundant data records are present.
    ```
@@ -123,7 +123,7 @@ indicating that these categories are major revenue drivers.
           drop table #temp_table
     ```
 
- ### Data Analysis:
+ ### Data Analysis
 Queries were written to extract:
 - **Total sale per product**: with the same insight as in excel
 
@@ -138,7 +138,7 @@ Queries were written to extract:
   *key insight*: a higher number of customers contributed the same revenue in our sales which shows a large number of them are crucial for revenue retention and could indicate a
   segment of high-value clients. You might consider strategies to maintain these relationships, such as loyalty programs or targeted marketing.
 
-- **Number of sale transaction in each region**:
+- **Number of sales transaction in each region**:
 
   *Key insights*: There is near-equal distribution of sales transactions which suggests that your sales efforts, customer demand, or market reach are relatively
   balanced across regions. This could indicate consistent performance from the sales team or equally distributed customer interest in all areas.
