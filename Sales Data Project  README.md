@@ -113,7 +113,7 @@ indicating that these categories are major revenue drivers.
    The relatively strong sales in July and June provide an opportunity to create mid-year campaigns that further capitalize on these natural sales peaks.
 
 - ## SQL Analysis
- ### Data Cleaning 
+ ### Data Cleaning:
 1. Correct Data Types: Ensuring data types are appropriate for analysis (e.g., dates, integers, floats).
 2. Remove Duplicates: Ensuring no redundant data records are present.
    ```
@@ -123,7 +123,7 @@ indicating that these categories are major revenue drivers.
           drop table #temp_table
     ```
 
- ### Data Analysis 
+ ### Data Analysis:
 Queries were written to extract:
 - **Total sale per product**: with the same insight as in excel
 
