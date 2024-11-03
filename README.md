@@ -5,12 +5,14 @@ I’m a student of Ladies In Tech Africa(LITA), undergoing training to be a data
 
 ## Projects
 
-### [Project 1: Customer Sales Analysis ](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Sales%20Data%20Project%20%20README.md)
+### [Project 1: HR Data Analysis ](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Class%20Project_HR%20Data%20README.md)
+Analzed HR data to understand attrition trends
+
+### [Project 2: Customer Sales Analysis ](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Sales%20Data%20Project%20%20README.md)
 Analyzed customer subscription data to identify patterns and trends in cancellations, revenue contributions, and customer segmentation.
 
-### [Project 2: Subscription Analysis ](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Customer%20Data%20Project%20README.md)
+### [Project 3: Subscription Analysis ](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Customer%20Data%20Project%20README.md)
 Evaluated sales data to measure performance, identify top-performing products, and visualize sales trends over time.
-
 ...
 
 ## Skills
