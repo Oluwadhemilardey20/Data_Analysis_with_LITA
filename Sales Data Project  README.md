@@ -180,7 +180,7 @@ Excel snapshots-
 ![IMG_20241104_134129_314](https://github.com/user-attachments/assets/70cf04dc-f652-4c59-bd12-b7ce9139b8e5)
 
 
-![](SalesDataTable.jpg)
+![](SalesDataTable.png)
 
 
 ### SQL Analysis
