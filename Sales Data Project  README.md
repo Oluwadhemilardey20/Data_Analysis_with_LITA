@@ -163,7 +163,7 @@ Queries were written to extract:
 
 ## Visual Highlights
 ### Excel Analysis
-![Excel Summary Chart](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/LITA%20Capstone%20Dataset%20SalesData.xlsx)
+[Excel Summary Chart](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/LITA%20Capstone%20Dataset%20SalesData.xlsx)
 
 ### SQL Analysis
 Queries to extract subscription trends can be found [here](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/LITA%20Capstone%20%20Project-%20Sales%20Data.sql).
