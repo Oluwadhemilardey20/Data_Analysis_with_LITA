@@ -20,3 +20,6 @@ Evaluated sales data to measure performance, identify top-performing products, a
 - **Excel**: Data cleaning, PivotTables, and charting.
 - **SQL**: Data extraction, aggregation, and complex queries.
 - **Power BI**: Interactive dashboards, data modeling, and visual storytelling.
+
+
+![Table](https://github.com/user-attachments/assets/b319e1d0-24df-4711-ae1a-16b82f05319a)
