@@ -175,11 +175,13 @@ A dashboard that visualizes the insights found in Excel and SQL was created. The
 
 ## Visual Highlights
 ### Excel Analysis
-![Excel Summary Chart](./visuals/excel_summary_chart.png)[Uploading Sales Data Project.sql.sql…]()
+Excel File-
+
+[Excel Summary Chart](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/LITA%20Capstone%20Dataset%20Customer%20Data.xlsx)
 
 
 ### SQL Analysis
-Queries to extract subscription trends can be found [here](./scripts/SQL_Analysis/).
+Queries to extract subscription trends can be found [here](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/LITA%20capstone%20Project-%20Customer%20Data.sql).
 
 ### Power BI Dashboard
 ![Power BI Dashboard](./visuals/powerbi_dashboard.png)
