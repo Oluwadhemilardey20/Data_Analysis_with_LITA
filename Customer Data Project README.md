@@ -170,7 +170,7 @@ Query: select * from [dbo].[LITA Capstone Dataset 2]
  1. Correct Data Types: Ensuring data types are appropriate for analysis (e.g., dates, whole numbers, texts, etc.).
  2. Remove Duplicates: Ensuring no redundant data records are present.
  3. Handle Missing Values: Identifying and addressing any gaps in data.
- ### Data Visalization 
+ ### Data Visualization 
 A dashboard that visualizes the insights found in Excel and SQL was created. The dashboard includes key customer segments, cancellations, and subscription trends.
 
 ## Visual Highlights
