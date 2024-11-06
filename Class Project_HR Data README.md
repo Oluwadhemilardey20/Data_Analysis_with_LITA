@@ -128,6 +128,13 @@ Introduce or expand wellness programs that include stress management and mental 
 Regularly gather feedback from employees on their specific needs related to their marital status and implement initiatives that cater to those needs.
 ## Visual Highlights
 
+![HR Visual](https://github.com/user-attachments/assets/c96ca772-5ca3-4a9e-b8ea-fd5841750399)
+
+
+
+![HR Visual2](https://github.com/user-attachments/assets/7351f4ca-5fbe-47dc-9f17-dbc3062ed4e3)
+
+
 ## Conclusion
 High attrition in the R&D and Sales departments needs immediate attention through focused retention strategies and management reviews. In contrast, the lower attrition in HR suggests some practices there could be adapted to improve conditions in other departments.
 
