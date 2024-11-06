@@ -181,12 +181,19 @@ Excel File-
 
 Excel Snapshots- 
 
+[Subscription Table](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Subscription%20Table.png)
+
+[Pivot table1](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Subscription%20Pivot1.png)
+
+[Pivot table2](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Subscription%20Pivot2.png)
+
+[Pivot table3](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Subscription%20pivot3.png)
 
 ### SQL Analysis
 Queries to extract subscription trends can be found [here](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/LITA%20capstone%20Project-%20Customer%20Data.sql).
 
 ### Power BI Dashboard
-![Power BI Dashboard](./visuals/powerbi_dashboard.png)
+[Power BI Dashboard](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/LITA%20Project%20-%20Customer%20Data.pbix)
 
 Snapshots- 
 
