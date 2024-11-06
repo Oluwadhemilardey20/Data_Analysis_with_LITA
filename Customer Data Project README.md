@@ -179,12 +179,20 @@ Excel File-
 
 [Excel Summary Chart](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/LITA%20Capstone%20Dataset%20Customer%20Data.xlsx)
 
+Excel Snapshots- 
+
 
 ### SQL Analysis
 Queries to extract subscription trends can be found [here](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/LITA%20capstone%20Project-%20Customer%20Data.sql).
 
 ### Power BI Dashboard
 ![Power BI Dashboard](./visuals/powerbi_dashboard.png)
+
+Snapshots- 
+
+[Subscription Visual](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Subscription%20Visual.png)
+
+[Subscription Visual2](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Subscription%20Visual2.png)
 
 ## Conclusion
 With the significant difference between Basic and other tiers, there may be an opportunity to convert Basic users to Standard or Premium with targeted offers or additional incentives.
