@@ -177,12 +177,6 @@ Excel snapshots-
 
 [Sales Data Summary](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/IMG_20241104_134104_062.jpg)
 
-![IMG_20241104_134129_314](https://github.com/user-attachments/assets/70cf04dc-f652-4c59-bd12-b7ce9139b8e5)
-
-
-![](SalesDataTable.png)
-
-
 ### SQL Analysis
 Queries to extract subscription trends can be found [here](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/LITA%20Capstone%20%20Project-%20Sales%20Data.sql).
 
