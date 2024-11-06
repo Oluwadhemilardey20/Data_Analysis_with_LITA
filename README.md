@@ -9,10 +9,10 @@ I’m a student of Ladies In Tech Africa(LITA), undergoing training to be a data
 Analyzed HR data to understand employee attrition trends within the organization.
 
 ### [Project 2: Customer Sales Analysis ](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Sales%20Data%20Project%20%20README.md)
-Analyzed customer subscription data to identify patterns and trends in cancellations, revenue contributions, and customer segmentation.
+Evaluated sales data to measure performance, identify top-performing products, and visualize sales trends over time.
 
 ### [Project 3: Subscription Analysis ](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Customer%20Data%20Project%20README.md)
-Evaluated sales data to measure performance, identify top-performing products, and visualize sales trends over time.
+Analyzed customer subscription data to identify patterns and trends in cancellations, revenue contributions, and customer segmentation.
 
 ...
 
