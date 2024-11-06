@@ -175,13 +175,19 @@ Excel snapshots-
 
 [Sales Data Summary](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/IMG_20241104_134046_795.jpg)
 
-[Sales Data Summary](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/IMG_20241104_134104_062.jpg)
+[Sales Data Summary2](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/IMG_20241104_134104_062.jpg)
 
 ### SQL Analysis
 Queries to extract subscription trends can be found [here](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/LITA%20Capstone%20%20Project-%20Sales%20Data.sql).
 
 ### Power BI Dashboard
-![Power BI Dashboard](./visuals/powerbi_dashboard.png)
+[Power BI Dashboard](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/LITA%20Project%20-%20Sales%20Data.pbix)
+
+Snapshots-
+
+[Sales Visual](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Sales%20visual1.png)
+
+[Sales Visual2](https://github.com/Oluwadhemilardey20/Data_Analysis_with_LITA/blob/main/Sales%20visual%202.png)
 
 ## Conclusion
 With Shoes being the leading product, rather than a strong reliance on a few top-performing products, inventory management, promotional strategies, and product development should be done
